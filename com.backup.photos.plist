@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+ <key>Label</key>
+ <string>com.backup.photos</string>
+ <key>ProgramArguments</key>
+ <array>
+ <string>/Users/andreasmosti/Dev/Backupjobs/runBackup.sh</string>
+ </array>
+ <key>StandardErrorPath</key>
+ <string>/Users/andreasmosti/Dev/Backupjobs/error.log</string>
+ <key>StandardOutPath</key>
+ <string>/Users/andreasmosti/Dev/Backupjobs/success.log</string>
+ <key>StartCalendarInterval</key>
+ <dict>
+ <key>Minute</key>
+ <integer>00</integer>
+ <key>Hour</key>
+ <integer>21</integer>
+ <key>Weekday</key>
+ <integer>7</integer>
+ </dict>
+</dict>
+</plist>
